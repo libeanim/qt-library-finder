@@ -7,7 +7,7 @@ This script should find all linked Qt libraries for you executable to deploy a d
 - Python 3
 - ldd (shell command to print shared library dependencies)
     
-# How it works
+# How does it work?
 Just set the `QT_LIBRARY_DIR` to your locally installed Qt library and the `QT_EXECUTABLE` to your application path.
 You should update the `COPY_SETTINGS` in order to get all plugins or qml files you need.
 
