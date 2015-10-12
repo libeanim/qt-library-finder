@@ -1,11 +1,11 @@
 """
 ================================
-Qt Library identifier
+Qt library finder
 ================================
 
-Identify Qt dependent libraries of your Qt executable on Linux.
+Find all Qt dependent libraries of your Qt executable on Linux.
 
-ATTENTION: This is currently experimental and doesn't support QML to 100%
+ATTENTION: This is currently experimental especially the QML support.
 """
 
 import fnmatch
