@@ -1,6 +1,7 @@
-# Dynamically deploy a Qt application
+# Deploy a Qt application with dynamically linked Qt libraries
 
-If you have not a Qt commerical license but want to distribute your Qt app commercially (in a Qt free environment) you have to dynamically link the Qt libraries. This is due to the [LGPL](https://www.qt.io/qt-licensing-terms/) license Qt uses.
+If you don't have a Qt commercial license but want to distribute your Qt app commercially or in a Qt free environment (as all in one package) you have to dynamically link the Qt libraries. This is due to the [LGPL](https://www.qt.io/qt-licensing-terms/) license Qt uses.
+(This information is supplied without liability.)
 
 On **Windows** there is this [workaround](http://wiki.qt.io/Deploy_an_Application_on_Windows) to find all required files and make a dynamic linkage.
 
