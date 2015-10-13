@@ -17,7 +17,7 @@ The script finds all linked Qt libraries needed by your executable to deploy a d
 - ldd (shell command to print shared library dependencies)
 
 ## How does it work?
-In the python script you find a `QT_LIBRARY_DIR`, `QT_EXECUTABLE` and `COPY_SETTINGS` variable:
+There is a `QT_LIBRARY_DIR`, `QT_EXECUTABLE` and `COPY_SETTINGS` variable in the python script (qt-library-finder.py):
 
 * Set the `QT_LIBRARY_DIR` to your locally installed Qt library and the
 * `QT_EXECUTABLE` to your application path.
